@@ -1,0 +1,4 @@
+SELECT Competitions.Name, `Login`, `Password`, `Rules`, `E_Mail`, CONCAT(`Middlename`, ' ', `Surname`, ' ', `Lastname`) 
+                    AS FIO, `Citizenship`, `Date_Birthday`, `Phone`, `Code_Institution`, `Code_Group`, `Size`, `ESIM_Status`, `Comment` 
+                    FROM Participants INNER JOIN Competitions ON Participants.Code_Competition = Competitions.Code_Competition 
+                    WHERE (Participants.Rules != 3) AND (Participants.Rules != 4)

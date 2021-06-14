@@ -1,0 +1,44 @@
+/*Форма авторизации*/
+.form-signin {
+  width: 100%;
+  max-width: 512px;
+  min-width: 256px;
+  max-height: 700px;
+  padding: 30px;
+  margin: 25px auto;
+  background-color: #F8F9FA;
+  border-radius: 25px;
+  box-shadow: 0 0 2px;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  width: 75%;
+  margin:auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .btn {
+  height: auto;
+  width: 75%;
+  margin:auto;
+}
+
+/**/
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.card {
+    width: 32%;
+    margin-left: 1%;
+    
+}
